@@ -62,7 +62,8 @@ server.get('/getMovies/:city_name' ,moviesHandler)
 
 function moviesHandler (req,response){
 let city = req.params.city_name;
-let movieUrl = `https://api.themoviedb.org/3/search/multi?api_key=${process.env.MOVIES_API_KEY}&city=${city}`
+let movieUrl = `https://api.themoviedb.org/3/search/multi?api_key=${process.env.MOVIES_API_KEY}&query=${city}`
+
 let newFilms=[]
 axios.get(movieUrl).then(moveisData=>{
   moveisData.data.results.forEach((film)=>newFilms.push(new Result(film)));
