@@ -30,3 +30,14 @@ Start time: __4pm___
 Finish time: __6pm___
 
 Actual time needed to complete: __3hours___
+
+_______________________________
+Name of feature: _________class8_______________________
+
+Estimate of time needed to complete: ___2hours__
+
+Start time: __4pm___
+
+Finish time: __6pm___
+
+Actual time needed to complete: __3hours___
