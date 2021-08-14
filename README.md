@@ -41,3 +41,24 @@ Start time: __4pm___
 Finish time: __6pm___
 
 Actual time needed to complete: __3hours___
+
+____________________________________________
+Name of feature: _________class9_______________________
+
+Estimate of time needed to complete: ___2hours__
+
+Start time: __4pm___
+
+Finish time: __6pm___
+
+Actual time needed to complete: __3hours___
+________________________________________________
+Name of feature: _________class10______________________
+
+Estimate of time needed to complete: ___2hours__
+
+Start time: __2pm___
+
+Finish time: __6pm___
+
+Actual time needed to complete: __4hours___
