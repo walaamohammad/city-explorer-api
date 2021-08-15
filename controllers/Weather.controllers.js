@@ -1,6 +1,7 @@
 'use strict';
 // const { default: axios } = require('axios');
 const Forecast =require ('../models/Weather.models')
+const axios=require('axios');
 const weatherController=(req,res)=>{
   let lon =req.params.lon;
   let lat =req.params.lat;

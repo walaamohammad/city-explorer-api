@@ -4,9 +4,10 @@ const server = express() ;
 const cors = require('cors'); 
 require('dotenv').config();
 const PORT=process.env.PORT;
-const weather=require('./data/weather.json');
 server.use(cors());
 const weatherController=require('./controllers/Weather.controllers');
+const Result =require('./models/Movie.models');
+const axios=require('axios');
 //const movieController=require('./controllers/Movie.controllers');
 
 
